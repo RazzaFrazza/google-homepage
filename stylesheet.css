@@ -81,6 +81,12 @@ a {
 
 }
 
+#navbar img {
+
+  height: 21px;
+  width: 21px;
+}
+
 #mic {
 
   display: block;
@@ -90,8 +96,19 @@ a {
   bottom: 0px;
   left: 1050px;
   z-index: 1;
+  height: 25px;
+  width: 28px;
 
 }
+
+#mic img {
+
+  height: 25px;
+  width: 28px;
+
+
+}
+
 
 #searchbar {
 
