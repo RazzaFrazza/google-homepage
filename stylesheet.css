@@ -10,8 +10,8 @@ input {
 
 img {
 
-  height: 95;
-  width: 265;
+  height: 95px;
+  width: 265px;
 
 }
 
@@ -48,7 +48,7 @@ a {
 #navbar {
 
   font: arial;
-  font-size: 13px
+  font-size: 13px;
   display: block;
   position: absolute;
   top: 10px;
