@@ -1,240 +1,236 @@
-
 /* Razzakun's Stylesheet */
 
+html {
+
+    width: 1152px;
+    height: 643px;
+    position: relative;
+}
+
 input {
-
-  height: 25px;
-  width: 575px;
-
+    height: 20px;
+    width: 440px;
 }
 
 img {
-
-  height: 95px;
-  width: 265px;
-
+    height: 95px;
+    width: 265px;
 }
 
-img[src$=".jpg"] {
-
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-
-}
-
-ul {
-
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-
+img[src=".jpg"] {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
 }
 
 li {
-
-  display: inline;
-  margin: 0px 20px 0px 0px;
-
+    display: inline;
 }
 
 a {
-
-  text-decoration: none;
-  color: #222222;
-
+    text-decoration: none;
+    color: #222222;
 }
 
-#navbar {
+.wrapper{
 
-  font: arial;
-  font-size: 13px;
-  display: block;
-  position: absolute;
-  top: 10px;
-  right: 0px;
-  bottom: 0px;
-  left: 1000px;
-  z-index: 1;
-
-}
-
-#navbar li {
-
-  height: 17px;
-  width: 45px;
-
-}
-
-#navbar li li {
-
-  height: 12px;
-  width:  35px;
-
-}
-
-#navbar li li li {
-
-  height: 42px;
-  width: 11px;
+    width: 80%;
+    min-width: 750px;
+    height: 100%;
+    position: relative;
 
 
 }
 
-#navbar img {
-
-  height: 21px;
-  width: 21px;
+.navbar {
+    font: arial;
+    font-size: 13px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 220px;
 }
 
-#mic {
+.navbar1 {
+    height: 17px;
+    width: 45px;
+    font-family: arial,sans-serif;
+    position:absolute;
+    left: 775px;
+    top: 5px;
+}
 
-  display: block;
-  position: absolute;
-  top: 328px;
-  right: 0px;
-  bottom: 0px;
-  left: 1050px;
-  z-index: 1;
-  height: 25px;
-  width: 28px;
+.navbar2 {
+    height: 12px;
+    width: 35px;
+    font-family: arial,sans-serif;
+    position:absolute;
+    left: 845px;
+    top: 5px;
+}
+
+.navbar3 {
+    height: 42px;
+    width: 11px;
+    font-family: arial,sans-serif;
+    position:absolute;
+    left: 900px;  
+    top: 5px;
+}
+
+.navbarimg {
+    height: 21px;
+    width: 21px;
+}
+
+.navbarimgposition1 {
+
+    position:absolute;
+    left: 960px;  
+    top: 5px;
+
+}
+.navbarimgposition2 {
+ 
+    position:absolute;
+    left: 1000px;  
+    top: 5px;
 
 }
 
-#mic img {
+.navbarimgposition4 {
 
-  height: 25px;
-  width: 28px;
+    position:absolute;
+    left: 1040px;  
+    top: 5px;
 
+}
+.navbarimgposition5 {
+
+    height: 32px;
+    width: 32px;
+    position:absolute;
+    left: 1075px;  
+    top: 0;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 20px;
 
 }
 
-
-#searchbar {
-
-  position: absolute;
-  top: 318px;
-  right: 0px;
-  bottom: 0px;
-  left: 31%;
-
+.mic {
+    display: block;
+    position: absolute;
+    top: 312px;
+    right: 0;
+    bottom: 0;
+    left: 770px;
+    height: 22px;
+    width: 28px;
+    z-index: 1;
 }
 
-#logo {
-
-  position: absolute;
-  top: 191px;
-  right: 0px;
-  bottom: 0px;
-  left: 650px;
-
-
+.micimg {
+    height: 21px;
+    width: 28px;
 }
 
-#logo-search {
+.searchbar {
+    position: absolute;
+    top: 310px;
+    right: 10px;
+    bottom: 0;
+    left: 350px;
+}
 
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
+.logo {
+    position: absolute;
+    top: 191px;
+    right: 0;
+    bottom: 0;
+    left: 430px;
+}
 
+.logo-search {
+    position: relative;
 }
 
 .button1 {
-
-  height: 30px;
-  width:  97px;
-  font-family: Arial;
-  line-height: 27px;
-  font-size: 11px;
-  font-weight: bold;
-  margin: 11px 8px;
-  text-align: center;
-  min-width: 54px;
-  padding: 0px 8px;
-  display: inline-block;
-  position: absolute;
-  top: 172px;
-  right: 0px;
-  bottom: 0px;
-  left: 325px;
-  color: #222222;
-
+    height: 30px;
+    width: 97px;
+    font-family: Arial;
+    line-height: 27px;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 11px 8px;
+    text-align: center;
+    min-width: 54px;
+    padding: 0 8px;
+    display: inline-block;
+    position: absolute;
+    top: 165px;
+    right: 0;
+    bottom: 0;
+    left: 225px;
+    color: #222222;
 }
 
 .button2 {
+    height: 30px;
+    width: 108px;
+    font-family: Arial;
+    line-height: 27px;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 11px 8px;
+    text-align: center;
+    min-width: 54px;
+    padding: 0 8px;
+    display: inline-block;
+    position: absolute;
+    top: 165px;
+    right: 0;
+    bottom: 0;
+    left: 280px;
+    color: #222222;
+}
 
-  height: 30px;
-  width: 108px;
-  font-family: Arial;
-  line-height: 27px;
-  font-size: 11px;
-  font-weight: bold;
-  margin: 11px 8px;
-  text-align: center;
-  min-width: 54px;
-  padding: 0px 8px;
-  display: inline-block;
-  position: absolute;
-  top: 172px;
-  right: 0px;
-  bottom: 0px;
-  left: 380px;
-  color: #222222;
+.footer {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 31px;
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-top: 1px solid #e4e4e4;
 
 }
 
-#footer {
-
-  background-color: #f2f2f2;
-  border-top: 1px solid #e4e4e4;
-  display:block;
-  position: absolute;
-  top: 800px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  width: 1597px;
+.footernav {
+    display: inline-block;
+    position: relative;
+    font-family: arial;
+    font-size: 13px;
+    white-space: nowrap;
 
 }
 
-#footernav {
-
-  display: inline-block;
-  position: absolute;
-  top: 810px;
-  right: 0px;
-  bottom: 0px;
-  left: 30px;
-  font-family: arial;
-  font-size: 13px;
-  white-space: nowrap;
-  padding-left: 27px;
-
+.footernav a {
+    color: gray;
 }
 
-#footernav a {
-
-  color: gray;
-
+.footernav2 {
+    display: block;
+    position: fixed; 
+    left: 600px;
+    top: 634px;
+    font-family: arial;
+    font-size: 13px;
+    white-space: nowrap;
+    padding-left: 27px;
 }
 
-#footernav2 {
-
-  display: inline-block;
-  position: absolute;
-  top: 810px;
-  right: 0px;
-  bottom: 0px;
-  left: 1300px;
-  font-family: arial;
-  font-size: 13px;
-  white-space: nowrap;
-  padding-left: 27px;
-
-}
-
-#footernav2 a {
-
-  color: gray;
-
+.footernav2 a {
+    color: gray;
 }
